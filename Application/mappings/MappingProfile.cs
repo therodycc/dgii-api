@@ -1,3 +1,4 @@
+namespace dgii_api.Application.Mappings;
 using AutoMapper;
 using dgii_api.models;
 

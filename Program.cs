@@ -68,10 +68,9 @@ app.UseCors(CorsPolicy);
 app.UseHttpsRedirection();
 
 app.UseMiddleware<ExceptionMiddleware>();
-// app.UseMiddleware<AuthMiddleware>();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+await app.RunAsync();

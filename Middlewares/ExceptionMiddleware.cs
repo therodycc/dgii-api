@@ -1,3 +1,4 @@
+namespace dgii_api.Middlewares;
 using System.Net;
 using System.Text.Json;
 
