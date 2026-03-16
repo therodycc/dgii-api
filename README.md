@@ -74,6 +74,8 @@ dotnet watch;
 ```markdown
 https://localhost:7071/swagger/index.html
 ```
+<img width="1501" height="889" alt="image" src="https://github.com/user-attachments/assets/0bc45183-ea57-4803-bfb3-2ad1ebde69c1" />
+
 
 ### 🗄️ Migraciones de Base de Datos
 ```bash
