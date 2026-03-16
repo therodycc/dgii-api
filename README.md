@@ -95,3 +95,6 @@ dotnet ef migrations script -o script.sql
 # Ver migraciones aplicadas
 dotnet ef migrations list
 ```
+
+
+> Muchisimas mejoras que por temas de tiempo no se puedieron completar, como los Tests, Dockerizar todo, calculo automatico del ITBIS (18% del monto), Enums para los tipos (Persona Fisica y juridica) y para el estatus, validaciones en los DTOs, etc... 
