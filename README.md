@@ -1,11 +1,3 @@
-# dgii-api
-
-![DGII System](https://github.com/therodycc/dgii-api/assets/72664020/d99c30c0-c4b3-4cb1-963a-dbf5436d04d0)
-
-### Video using the api with swagger
-
-https://drive.google.com/file/d/1CW8uOD7mGkxxuusa4eqT-hj0SQrb_EBz/view?usp=sharing
-
 ## Versión
 
 ```bash
@@ -44,12 +36,16 @@ dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Data Source=local
 ## Instalation
 
 ```bash
-dotnet ef database update
+dotnet ef database update;
+dotnet run seeddata;
 ```
 
+# Run
+
 ```bash
-dotnet run seeddata
+dotnet watch;
 ```
+
 
 # Migrations
 
